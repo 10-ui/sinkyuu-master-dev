@@ -1,6 +1,7 @@
 import React from "react";
 import Saitou from "./Saitou";
 import Tuduku from "./Tuduku";
+import Watanabe from "./Watanabe";
 
 function Bfaf() {
   return (
@@ -21,7 +22,7 @@ function Bfaf() {
         </p>
         <Saitou />
         <Tuduku />
-        <img src="./public/h2_image3.PNG" alt="Image 3" />
+        <Watanabe/>
       </section>
     </>
   );

@@ -4,6 +4,7 @@ function Footer() {
   return (
     <>
       <footer>
+        <p className="kousiki">solotori公式サイト</p>
         <p>見つける</p>
         <ul className="footer-list">
           <li className="footer-list_item">

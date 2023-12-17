@@ -64,6 +64,7 @@ function Header() {
           </li>
         </ul>
         <><img src="./public/insuta.webp" alt="Icon" className="zizi"/></>
+        <button className="botan">お問い合わせ</button>
       </nav>
     </header>
   );
