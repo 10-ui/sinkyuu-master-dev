@@ -11,29 +11,40 @@
   margin-left: 0;
   width: 70%;
   padding: 20px;
-  color: aliceblue;
+  color: rgb(8, 10, 12);
 }
-.saa{
+h3 {
+  color: black;
+}
+.saa {
   display: block;
   margin-right: auto;
   margin-left: 0;
   width: 70%;
   padding: 20px;
-  color: aliceblue ;
+  color: rgb(8, 10, 12);
 }
-.aka{
-  background-color: rgb(130, 177, 218);
+.aka {
+  background-color: #d8e1de;
+  padding-bottom: 49px;
+  position: relative;
 }
-.kumo1{
+.kumo1 {
   display: block;
   margin-left: auto;
   margin-left: 0;
   width: 50%;
   height: 50%;
 }
-.kumo2{
+.kumo2 {
   display: block;
   margin-right: auto;
   margin-right: 0;
   width: 50%;
+}
+.idou {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: fit-content;
 }

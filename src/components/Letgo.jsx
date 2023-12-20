@@ -1,9 +1,38 @@
 import gsap from "gsap";
 import { useRef, useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Idou from "./Idou";
 
 function TravelSection() {
   const ref = useRef(null);
+
+  useEffect(() => {
+    const nom = document.querySelector(".idou");
+    const aka = document.querySelector(".aka").clientHeight;
+    const body = document.body.clientHeight;
+    // スクロールイベントリスナーを追加
+    const handleScroll = () => {
+      // スクロール値を取得
+      const scrollY = window.scrollY;
+      console.log(scrollY);
+      if (scrollY >= 3608) {
+        return;
+      }
+      if (scrollY - 2156 >= 0) {
+        const now = scrollY - 2156;
+        const h = (now / aka) * 100;
+        nom.style.top = `${h}%`;
+      }
+    };
+
+    // スクロールイベントリスナーを登録
+    window.addEventListener("scroll", handleScroll);
+
+    // コンポーネントがアンマウントされたときにイベントリスナーを解除
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // 空の依存リストを指定して初回レンダリング時のみ実行
 
   const setAnimation = () => {
     gsap.fromTo(
@@ -27,11 +56,13 @@ function TravelSection() {
       gsap.registerPlugin(ScrollTrigger);
       setAnimation();
     }
-  }, [ref.current]);
+  }, [ref]);
   return (
     <section className="aka">
+      {/* <Idou /> */}
+      <img src="./public/idou.png" alt="移動する人" className="idou" />
       <img src="./public/kumo.svg" className="kumo1" ref={ref}></img>
-      <img src="./public/kumo.svg" className="kumo2"></img>
+      <img src="./public/kumo.svg" className="kumo2" ref={ref}></img>
       <h3 className="saa">一歩踏み出そう</h3>
       <img src="./public/sorotori.svg" alt="Image 1" className="kyan" />
       <p className="mozi">

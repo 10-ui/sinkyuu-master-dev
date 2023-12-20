@@ -63,8 +63,10 @@ function Header() {
             </li>
           </li>
         </ul>
-        <><img src="./public/insuta.webp" alt="Icon" className="zizi"/></>
-        <button className="botan">お問い合わせ</button>
+        <div className="flexes">
+          <img src="./public/insuta.webp" alt="Icon" className="zizi" />
+          <button className="botan">お問い合わせ</button>
+        </div>
       </nav>
     </header>
   );

@@ -15,7 +15,7 @@ function Watanabe() {
         onClick={toggleState}
         src="./public/h2_image2.PNG"
         alt=""
-        className={`${state ? "af_Watanabe" : ""}`}
+        className={`${state ? "af_Watanabe" : ""} gsap-img`}
       />
       <img
         onClick={toggleState}

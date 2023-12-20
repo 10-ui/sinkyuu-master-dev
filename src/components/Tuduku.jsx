@@ -15,7 +15,7 @@ function Tuduku() {
         onClick={toggleState}
         src="./public/h2_image3.PNG"
         alt=""
-        className={`${state ? "af_Tuduku" : ""}`}
+        className={`${state ? "af_Tuduku" : ""} gsap-img`}
       />
       <img
         onClick={toggleState}

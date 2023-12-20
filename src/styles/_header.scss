@@ -40,15 +40,20 @@ header {
     right: 0;
   }
 }
+p{
+  font-size: 20px;
+}
 .papa {
   text-align: left;
   font-size: 20px;
   margin-bottom: 20px;
 }
 .zizi {
-  border: 1px #fff;
-  width: 10vw;
+  // border: 1px #fff;
+  width: 15vw;
+  height: 15vw;
 }
+
 .botan {
   border-radius: 30px;
   border: 1px solid #000;
@@ -57,6 +62,11 @@ header {
   font-size: 20px;
   letter-spacing: 2px;
   padding: 14px 25.5px;
+  display: block;
+}
+.flexes {
+  display: flex;
+  margin-top: 50px;
 }
 .menu-btn {
   .line,

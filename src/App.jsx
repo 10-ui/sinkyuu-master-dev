@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Letgo from "./components/Letgo";
 import Hamon from "./components/Hamon";
 import Rain from "./components/Rain";
-import Insuta from "./components/insuta";
+// import Insuta from "./components/insuta";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +20,7 @@ function App() {
         {/* <Fv />
         <Bfaf /> */}
         <Letgo />
-        <Insuta/>
+        {/* <Insuta/> */}
       </main>
       <Footer />
     </>

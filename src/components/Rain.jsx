@@ -27,7 +27,7 @@ function Rain() {
     })
   return (
     <div id="container">
-         <Fv/>
+        <Fv/>
         <Bfaf/>
         
     </div>

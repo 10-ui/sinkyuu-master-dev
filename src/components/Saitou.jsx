@@ -15,7 +15,7 @@ function Saitou() {
         onClick={toggleState}
         src="./public/h2_image.PNG"
         alt=""
-        className={`${state ? "af_Saitou" : ""}`}
+        className={`${state ? "af_Saitou" : ""} gsap-img`}
       />
       <img
         onClick={toggleState}
