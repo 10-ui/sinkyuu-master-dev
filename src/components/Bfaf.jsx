@@ -14,7 +14,7 @@ function Bfaf() {
       keyframes: [
         { duration: 2, x: 30, y: 10, ease: "power4.Out" }, //このアニメーションが終わったら下のアニメーションが起こる。
         { duration: 2, x: 0, y: 0, ease: "power4.Out" },
-        { duration: 2, x: -10, y: 10, ease: "power4.Out" },
+        { duration: 2, x: -20, y: 10, ease: "power4.Out" },
         { duration: 2, x: -10, y: 0, ease: "power4.Out" },
         { duration: 2, x: 0, y: 10, ease: "power4.Out" },
         { duration: 2, x: 10, y: 0, ease: "power4.Out" },

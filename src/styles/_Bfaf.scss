@@ -15,42 +15,36 @@ main {
     font-size: 20px;
   }
 }
+
 .Saitou {
   margin-bottom: 49px;
   position: relative;
   z-index: 1;
 }
+
 .active {
   display: block;
 }
 
-.af_Saitou {
+.af_Saitou,
+.af_Tuduku,
+.af_Watanabe {
   display: none;
 }
-.af_Tuduku {
-  display: none;
-}
-.Tuduku {
-  position: relative;
-  z-index: 1;
-  margin-bottom: 49px;
-}
+
+.Tuduku,
 .Watanabe {
   position: relative;
   z-index: 1;
   margin-bottom: 49px;
 }
-.af_Watanabe {
-  display: none;
-}
+
 .gsap-repeatAnime {
   margin-top: 40px;
   text-align: center;
 }
+
 .gsap-img {
-  // width: 200px;
-  // height: 200px;
-  // border-radius: 50%;
   object-fit: cover;
   object-position: 35%;
   box-shadow: 5px 5px 25px #7e7e7e, -5px -5px 25px #ffffff;

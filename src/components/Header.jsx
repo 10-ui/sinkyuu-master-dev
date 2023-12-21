@@ -64,7 +64,7 @@ function Header() {
           </li>
         </ul>
         <div className="flexes">
-          <img src="./public/insuta.webp" alt="Icon" className="zizi" />
+          <a href="https://www.instagram.com/solotori_official/?hl=ja"><img src="./public/insuta.webp" alt="Icon" className="zizi" /></a>
           <button className="botan">お問い合わせ</button>
         </div>
       </nav>

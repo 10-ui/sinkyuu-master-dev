@@ -77,7 +77,7 @@ function TravelSection() {
         を通してsorotoriで成長しよう
       </p>
       <img src="./public/kp1.PNG" alt="Image 1" className="kyan" />
-      <p className="mozi">1. インスタでsorotoriのアカウントをフォローする</p>
+      <p className="mozi">1. インスタでsorotoriのアカウントをフォロー!</p>
       <img src="./public/kp2.PNG" alt="Image 2" className="kyan" />
       <p className="mozi">
         2. sorotoriの投稿で

@@ -33,21 +33,27 @@ header {
   padding: 40px;
   list-style-type: none;
   color: aliceblue;
+
   a {
     color: aliceblue;
+    display: block;
   }
+
   &.active {
     right: 0;
   }
 }
-p{
+
+p {
   font-size: 20px;
 }
+
 .papa {
   text-align: left;
   font-size: 20px;
   margin-bottom: 20px;
 }
+
 .zizi {
   // border: 1px #fff;
   width: 15vw;
@@ -64,10 +70,13 @@ p{
   padding: 14px 25.5px;
   display: block;
 }
+
 .flexes {
   display: flex;
   margin-top: 50px;
+  justify-content: space-between;
 }
+
 .menu-btn {
   .line,
   .line::after,
