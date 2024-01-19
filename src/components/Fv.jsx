@@ -20,7 +20,7 @@ function Firstview() {
         );
         await sleep(5000);
         let rain = document.querySelector(".rain");
-        rain.style.display = "none";
+        rain.classList.add("none");
       };
       image.crossOrigin = "anonymous";
       image.src = "/images/fast1.PNG";
