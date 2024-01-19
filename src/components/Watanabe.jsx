@@ -13,14 +13,14 @@ function Watanabe() {
     <div className="Watanabe">
       <img
         onClick={toggleState}
-        src="./public/h2_image2.PNG"
+        src="/images/h2_image2.PNG"
         alt=""
         className={`${state ? "af_Watanabe" : ""} gsap-img`}
       />
       <img
         onClick={toggleState}
         className={`${state ? "" : "af_Watanabe"}`}
-        src="./public/bfaf3.png"
+        src="/images/bfaf3.png"
         alt=""
       />
     </div>

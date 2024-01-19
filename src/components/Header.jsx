@@ -13,7 +13,7 @@ function Header() {
       <div className="header">
         <h1>
           <a href="https://solotori.jp/">
-            <img src="./public/logo.svg" />
+            <img src="/images/logo.svg" />
           </a>
         </h1>
         <div className="menu-btn" onClick={toggleHammenu}>
@@ -91,7 +91,7 @@ function Header() {
         <div className="flexes">
           <a href="https://www.instagram.com/solotori_official/?hl=ja">
             <img
-              src="./public/insuta.webp"
+              src="/images/insuta.webp"
               alt="Icon"
               className="zizi"
             />

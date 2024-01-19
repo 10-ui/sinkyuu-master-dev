@@ -23,7 +23,7 @@ function Firstview() {
         rain.classList.add("none");
       };
       image.crossOrigin = "anonymous";
-      image.src = "./public/fast1.PNG";
+      image.src = "/images/fast1.PNG";
     }
     run();
   }, []);
