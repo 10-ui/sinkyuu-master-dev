@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Letgo from "./components/Letgo";
@@ -8,7 +7,6 @@ import Rain from "./components/Rain";
 import Top from "./components/Top";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
