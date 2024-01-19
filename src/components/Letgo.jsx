@@ -10,7 +10,7 @@ function TravelSection() {
     const nom = document.querySelector(".idou");
     const aka = document.querySelector(".aka").clientHeight;
     const body = document.body.clientHeight;
-    // スクロールイベントリスナーを追加
+  
     const handleScroll = () => {
       // スクロール値を取得
       const scrollY = window.scrollY;
@@ -66,7 +66,7 @@ function TravelSection() {
       <h3 className="saa">一歩踏み出そう</h3>
       <img src="./public/sorotori.svg" alt="Image 1" className="kyan" />
       <p className="mozi">
-        おすすめの旅先を決めて
+        solptoriキャンペーン
         <br />
         旅に出よう!!
         <br />

@@ -34,7 +34,7 @@ function Firstview() {
       <section className="fv">
         <h2>
           {/* <span className="fvtext">変わるときは</span> */}
-          <span className="fvnow">将来が不安</span>
+          <span className="fvnow"></span>
         </h2>
         <img src="" alt="Fast 1" className="fast2" />
         {/* <div className="rain-container">
