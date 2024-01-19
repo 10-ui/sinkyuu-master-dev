@@ -60,11 +60,11 @@ function TravelSection() {
   return (
     <section className="aka">
       {/* <Idou /> */}
-      <img src="./public/idou.png" alt="移動する人" className="idou" />
-      <img src="./public/kumo.svg" className="kumo1" ref={ref}></img>
-      <img src="./public/kumo.svg" className="kumo2" ref={ref}></img>
+      <img src="/images/idou.png" alt="移動する人" className="idou" />
+      <img src="/images/kumo.svg" className="kumo1" ref={ref}></img>
+      <img src="/images/kumo.svg" className="kumo2" ref={ref}></img>
       <h3 className="saa">一歩踏み出そう</h3>
-      <img src="./public/sorotori.svg" alt="Image 1" className="kyan" />
+      <img src="/images/sorotori.svg" alt="Image 1" className="kyan" />
       <p className="mozi">
         solptoriキャンペーン
         <br />
@@ -76,9 +76,9 @@ function TravelSection() {
         <br />
         を通してsorotoriで成長しよう
       </p>
-      <img src="./public/kp1.PNG" alt="Image 1" className="kyan" />
+      <img src="/images/kp1.PNG" alt="Image 1" className="kyan" />
       <p className="mozi">1. インスタでsorotoriのアカウントをフォロー!</p>
-      <img src="./public/kp2.PNG" alt="Image 2" className="kyan" />
+      <img src="/images/kp2.PNG" alt="Image 2" className="kyan" />
       <p className="mozi">
         2. sorotoriの投稿で
         <br />
@@ -86,7 +86,7 @@ function TravelSection() {
         <br />
         メッションして投稿する
       </p>
-      <img src="./public/kp3.PNG" alt="Image 3" className="kyan" />
+      <img src="/images/kp3.PNG" alt="Image 3" className="kyan" />
       <p className="mozi">
         3.旅先の旅館の代金が
         <br />

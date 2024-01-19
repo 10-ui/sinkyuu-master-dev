@@ -28,7 +28,7 @@ function Idou() {
   return (
     <div className="scroll-container">
       <img
-        src="./public/kp3.PNG"
+        src="/images/kp3.PNG"
         alt="Scrolling Image"
         className="scroll-image"
       />

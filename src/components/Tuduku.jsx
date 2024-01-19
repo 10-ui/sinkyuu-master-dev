@@ -13,14 +13,14 @@ function Tuduku() {
     <div className="Tuduku">
       <img
         onClick={toggleState}
-        src="./public/h2_image3.PNG"
+        src="/images/h2_image3.PNG"
         alt=""
         className={`${state ? "af_Tuduku" : ""} gsap-img`}
       />
       <img
         onClick={toggleState}
         className={`${state ? "" : "af_Tuduku"}`}
-        src="./public/bfaf2.png"
+        src="/images/bfaf2.png"
         alt=""
       />
     </div>

@@ -42,7 +42,6 @@ function Bfaf() {
           <br />自分の殻を割って成長しよう
         </p>
         <div className="gsap-repeatAnime">
-          {/* <img src="./public/h2_image.PNG" className="gsap-img" alt="h2_image" /> */}
           <div>
             <Saitou />
             <Tuduku />
